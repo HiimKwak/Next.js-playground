@@ -1,5 +1,7 @@
-import { getProduct, getProducts } from '@/service/products';
-import { notFound } from 'next/navigation';
+import { getProduct, getProducts } from "@/service/products";
+import { notFound } from "next/navigation";
+
+// export const revalidate = 3;
 
 type Props = {
   params: {
